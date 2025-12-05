@@ -17,7 +17,7 @@ This project helps manage patients, rooms, billing, and discharge efficiently th
 
 ## 🛠️ Technologies Used
 
-- **Java (JDK 8+)**  
+- **Java (JDK 25+)**  
 - **Java Swing** (Graphical User Interface)  
 - **Oracle Database / MySQL**  
 - **JDBC** (Database connection)  
@@ -31,9 +31,9 @@ This project helps manage patients, rooms, billing, and discharge efficiently th
 2. Open the project in IntelliJ IDEA or Eclipse.
 3. Add the JDBC driver for your database.
 4. Update the database connection in Connector.java:
-5. String url = "jdbc:oracle:thin:@localhost:1521:xe";
-6. String username = "your_db_username";
-7. String password = "your_db_password";
+-String url = "jdbc:oracle:thin:@localhost:1521:xe";
+-String username = "your_db_username";
+-String password = "your_db_password";
 
 
 ```bash
